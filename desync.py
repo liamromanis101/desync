@@ -2,6 +2,8 @@
 """
 HTTP Desync Tester - SMART Method Handling (GET/POST/PUT)
 Preserves original method, uses method-specific smuggling.
+
+Some test completed on this, seems to be working :P
 """
 
 import warnings
