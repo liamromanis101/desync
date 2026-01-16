@@ -77,7 +77,8 @@ User-Agent: Mozilla/5.0...
 ```
 
 ## 🎭 Test Variants Explained
-| Test | Headers | Body | Attack
+| Test | Headers | Body | Attack |
+| ---- | ------- | ---- | ------ |
 | CL.TE | CL:6TE:chunked | 0\r\n\r\n | "Proxy reads 6B origin waits on chunked" |
 | TE.CL | TE:chunkedCL:13 | 5\r\nabcde\r\n0\r\n\r\n | Reverse header parsing order |
 | Double CL | CL:6CL:200TE:chunked | 0\r\n\r\n | Which CL does proxy/origin obey? |
