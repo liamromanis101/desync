@@ -84,3 +84,5 @@ User-Agent: Mozilla/5.0...
 | Double CL | CL:6CL:200TE:chunked | 0\r\n\r\n | Which CL does proxy/origin obey? |
 | TE.Zero | TE:chunked | 0\r\n\r\n | Premature body termination |
 
+## 🙏 Credits
+https://portswigger.net/research/http1-must-die
